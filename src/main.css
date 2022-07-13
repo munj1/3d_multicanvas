@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+#three-canvas {
+  position: fixed;
+  left: 0;
+  top: 0;
+  /* background: gray; */
+  z-index: -1;
+}
+li {
+  list-style: none;
+}
+
+.canvas-placeholder {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  margin-right: 30px;
+}
+.view-item {
+  display: flex;
+  margin: 30px;
+}
+
+.view-item:nth-child(even) .canvas-placeholder {
+  order: 2;
+}
